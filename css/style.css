@@ -1,0 +1,548 @@
+/* common css start */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans",
+    sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+/* the shape under h2 */
+h2 {
+  color: #215a6d;
+  font-size: 28.51px;
+  font-weight: 600;
+  position: relative;
+}
+
+h2::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
+h2::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  width: 54px;
+  height: 2px;
+  background: #ae1010;
+}
+
+/* button */
+.btn {
+  color: #92c7a3;
+  font-size: 14px;
+  transition: all linear 0.4s;
+}
+
+.btn i {
+  color: #c70811;
+  margin-right: 8px;
+}
+
+.btn:hover {
+  color: #f18d26;
+}
+/* common css end */
+
+/* ============================== header css start ============================== */
+.header_part {
+  padding: 13px 0 18px;
+}
+
+.logo {
+  width: 95px;
+  float: left;
+}
+
+.header_text {
+  width: 663px;
+  float: left;
+}
+
+.header_text h3 {
+  color: #3ca2a2;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 87px;
+}
+
+.header_phone {
+  width: 212px;
+  float: left;
+}
+
+.header_phone p {
+  color: #b76262;
+  font-size: 28px;
+  line-height: 87px;
+}
+/* ============================== header css end ================================ */
+
+/* ============================== menu css start ================================ */
+.menu_part {
+  height: 50px;
+  background: linear-gradient(
+    to right,
+    #ae1010 0%,
+    #cf0511 100%
+  );
+}
+
+.main_menu {
+  width: 870px;
+  float: left;
+}
+
+.main_menu ul li {
+  float: left;
+}
+
+.main_menu ul li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 50px;
+  padding: 0 16px;
+  transition: all linear 0.4s;
+}
+
+.main_menu ul li a:hover {
+  background: #f18d26;
+}
+
+.menu_icon {
+  width: 100px;
+  float: left;
+}
+
+.menu_icon a {
+  color: #cf0511;
+  background: #fff;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 0;
+  transition: all linear 0.4s;
+}
+
+.menu_icon a:hover {
+  background: #f18d26;
+  color: #fff;
+}
+/* ============================== menu css end ================================== */
+
+/* ============================== banner css start ============================== */
+.banner_part {
+  padding: 75px 0;
+  background: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_text {
+  width: 440px;
+  float: left;
+  color: #215a6d;
+}
+
+.banner_text h1 {
+  font-size: 36px;
+  line-height: 42.4px;
+}
+
+.banner_text h1 > span {
+  display: block;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.banner_text p {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 20px 200px 40px 0;
+}
+
+.banner_text a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 25px;
+  border-radius: 30px;
+  background: #92c7a3;
+  transition: all linear 0.4s;
+}
+
+.banner_text a:hover {
+  background: #fff;
+  color: #215a6d;
+}
+
+.banner_container {
+  position: relative;
+}
+
+.banner_img {
+  width: 570px;
+  float: left;
+  position: absolute;
+  right: 0;
+  bottom: -75px;
+}
+
+.banner_img img {
+  width: 100%;
+}
+/* ============================== banner css end ================================ */
+
+/* ============================== about css start =============================== */
+.about_part {
+  padding: 48px 0 88px;
+  text-align: center;
+}
+
+.about_main {
+  width: 33.33%;
+  float: left;
+}
+
+.about_main h3 {
+  color: #3ca2a2;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.about_main p {
+  color: #215a6d;
+  font-size: 13px;
+  line-height: 20.4px;
+  padding: 10px 0 18px;
+}
+/* ============================== about css end ================================= */
+
+/* ============================== feature css start ============================= */
+.feature_part {
+  padding: 30px;
+  background: #dfece6;
+}
+
+.notice_part_width {
+  width: 48.45%;
+  float: left;
+  margin-right: 30px;
+}
+
+.feature_inner .last_child {
+  margin-right: 0;
+}
+
+.notice_board {
+  padding-top: 42px;
+}
+
+.notice_board ul li {
+  color: #3ca2a2;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 42px;
+  background: #fff;
+  padding-left: 16px;
+  border-bottom: 1px solid
+    #53b7c7;
+  position: relative;
+}
+
+.notice_board ul .last_child {
+  border: 0;
+}
+
+.notice_board ul li a {
+  font-size: 16px;
+  height: 42px;
+  width: 46px;
+  background: #bf0a11;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.video_inner {
+  padding-top: 52px;
+}
+/* ============================== feature css end =============================== */
+
+/* ============================== service css start ============================= */
+.service_part {
+  padding: 65px 0 75px;
+}
+
+.service_part_h2::after {
+  background: #eaeaea;
+}
+
+/* news part */
+.news_part {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.news_text h4 {
+  color: #3ca2a2;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 45px;
+  padding-bottom: 4px;
+}
+
+.news_text .h4_last_child {
+  margin-top: 24px;
+}
+
+.news_text p {
+  color: #215a6d;
+  font-size: 13px;
+  line-height: 20.4px;
+  border-bottom: 1px solid
+    #dfece6;
+  padding-bottom: 30px;
+}
+
+.news_text .last_child {
+  border: 0;
+}
+
+/* medical services part */
+.med_service_part {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.medical_services {
+  margin: 50px 0 84px;
+}
+
+.medical_services ul li a {
+  color: #215a6d;
+  font-size: 13px;
+  line-height: 29px;
+  transition: all linear 0.4s;
+}
+
+.medical_services ul li a i {
+  color: #bf0a11;
+  padding-right: 4px;
+}
+
+.medical_services
+  ul
+  li
+  a:hover {
+  color: #f18d26;
+}
+
+/* gallery part */
+.gallery_part {
+  width: 310px;
+  float: left;
+}
+
+.photo_gallery {
+  margin: 50px 0 64px;
+}
+
+.photo_gallery ul li {
+  width: 45.16%;
+  float: left;
+  margin: 0 30px 10px 0;
+}
+
+.photo_gallery
+  ul
+  .last_child {
+  margin: 0;
+}
+
+.photo_gallery ul li img {
+  width: 100%;
+  border: 4px solid #dfece6;
+}
+/* ============================== service css end =============================== */
+
+/* ============================== doctor css start ============================== */
+.doctor_part {
+  padding-bottom: 96px;
+}
+
+.doctor_heading h2::after {
+  background: #eaeaea;
+}
+
+.doctor_inner .doctor_main {
+  width: 31.27%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 42px;
+}
+
+.doctor_inner .last_child {
+  margin-right: 0;
+}
+
+.doctor_main img {
+  width: 100%;
+  border: 5px solid #dfece6;
+  margin-bottom: 10px;
+}
+
+.doctor_main h4 {
+  color: #3ca2a2;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.doctor_main h5 {
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+
+.doctor_main p a {
+  color: #cf0511;
+  font-size: 12px;
+}
+/* ============================== doctor css end ================================ */
+
+/* ============================== footer css start ============================== */
+.footer_part {
+  padding: 23px 0 43px;
+  background: #222222;
+}
+
+.footer_logo {
+  width: 100px;
+  float: left;
+}
+
+.footer_logo img {
+  width: 100%;
+}
+
+.footer_heading {
+  width: 870px;
+  float: left;
+}
+
+.footer_heading p {
+  color: #3ca2a2;
+  font-size: 26px;
+  font-weight: 600;
+  padding-top: 33px;
+}
+
+/* footer inner part */
+.footer_inner_child_width {
+  width: 25%;
+  float: left;
+}
+
+.footer_inner_child_width h4 {
+  color: #3ca2a2;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 46px 0 18px;
+}
+
+.footer_inner_child_width
+  ul
+  li
+  a {
+  color: #e2e2e2;
+  font-size: 12px;
+  line-height: 29px;
+  transition: all linear 0.4s;
+}
+
+.footer_inner_child_width
+  ul
+  li
+  a:hover {
+  color: #f18d26;
+}
+
+.footer_inner_child_width
+  ul
+  li
+  a
+  i {
+  color: #c70811;
+  margin-right: 5px;
+}
+
+.footer_contact ul li {
+  color: #e2e2e2;
+  font-size: 12px;
+  line-height: 29px;
+}
+
+.footer_contact ul li i {
+  color: #c70811;
+  margin-right: 5px;
+}
+
+/* footer bottom */
+.footer_btm {
+  background: #cf0511;
+  height: 45px;
+  text-align: center;
+}
+
+.footer_btm p {
+  color: #c6ded9;
+  font-size: 14px;
+  line-height: 45px;
+}
+/* ============================== footer css end ================================ */
